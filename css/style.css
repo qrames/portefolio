@@ -1,0 +1,170 @@
+html, body {
+  background: black;
+  overflow-x: hidden;
+}
+
+*:not(i):not(#formation h2 a) {
+  font-family: 'Quicksand', sans-serif !important;
+}
+
+#formation h2 a {
+  font-family: 'Kaushan Script', cursive;
+  color: #71b43d !important;
+}
+
+i {
+  font-size: 2rem;
+}
+
+h1 {
+  letter-spacing: 0.2em;
+  font-size: 8vw;
+  opacity: 0.2;
+}
+h1 hr {
+  width: 20vw;
+  margin: auto;
+  border: none;
+  border-bottom: 1vh dashed;
+}
+h1 strong {
+  font-size: 1.5em;
+  font-weight: bold;
+  opacity: 1;
+}
+
+#formation > .uk-overlay > img {
+  float: left;
+  width: 100px;
+  margin: 20px;
+}
+
+#formation p, #formation h2 {
+  text-align: left;
+  min-width: 60%;
+}
+#formation h2 {
+  margin: 1rem 0;
+}
+
+.soustitre {
+  font-size: 0.8em;
+}
+
+#formation > .uk-overlay > #GEDN {
+  float: right;
+  width: 70PX;
+}
+
+header, section {
+  position: relative;
+  min-height: 580px;
+  display: flex;
+  justify-content: center;
+}
+header > img, section > img {
+  overflow: hidden;
+  align-self: center;
+  min-width: 150vh;
+  max-width: 100vw;
+  min-height: 580px;
+  height: auto;
+}
+header > .uk-overlay, section > .uk-overlay {
+  padding: 10px;
+  margin-top: 2rem;
+  min-width: 50vw;
+  max-width: 90vw;
+  margin: auto;
+}
+header > .uk-overlay > ul, section > .uk-overlay > ul {
+  padding: 0;
+  display: flex;
+  flex-flow: wrap-reverse;
+  justify-content: space-around;
+}
+header > .uk-overlay > ul li, section > .uk-overlay > ul li {
+  box-sizing: border-box;
+  min-height: 100px;
+  flex-basis: 25%;
+  flex: 1 1 26%;
+  padding: 0.8em;
+  list-style: none;
+}
+header > .uk-overlay img, section > .uk-overlay img {
+  width: 80%;
+  height: 10%;
+}
+header > .uk-overlay div[uk-slider], section > .uk-overlay div[uk-slider] {
+  max-width: 80vw;
+  padding: 0 4vw;
+  margin: auto;
+}
+header > .uk-overlay div[uk-slider] li p, section > .uk-overlay div[uk-slider] li p {
+  width: 200px;
+  margin: auto;
+}
+header > .uk-overlay div[uk-slider] .uk-slidenav, section > .uk-overlay div[uk-slider] .uk-slidenav {
+  max-width: 90vw;
+  padding: 0;
+}
+
+nav {
+  width: 100vw;
+  position: fixed !important;
+  z-index: 1000;
+  background: rgba(0, 0, 0, 0.8);
+}
+nav li > a {
+  padding: 8px !important;
+}
+nav .uk-navbar-right {
+  padding-right: 1rem;
+}
+
+#menu-mobile img, nav img {
+  min-width: 40px;
+  width: 80px !important;
+}
+
+.uk-offcanvas-bar {
+  padding-top: 4rem;
+  line-height: 4em;
+  background: rgba(10, 17, 46, 0.77);
+}
+
+#contact {
+  position: fixed;
+  top: 20vh;
+  left: 5%;
+  right: 5%;
+  min-width: 50vw;
+  max-height: 80vh;
+}
+
+footer {
+  position: fixed;
+  bottom: 20px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+footer .uk-dotnav > * > * {
+  border: none;
+  margin-top: 5px;
+  width: 20px;
+  height: 20px;
+  background: white;
+  transition: all 0.5s;
+}
+footer .uk-active > * {
+  margin-top: 0;
+  width: 30px;
+  height: 30px;
+}
+footer .uk-dotnav > li:not(.uk-active) > :hover,
+footer .uk-dotnav > li:not(.uk-active) > :focus {
+  background-color: #0069de;
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,17 @@
+{
+  "name": "cv",
+  "version": "1.0.0",
+  "description": "cv html quentin rames",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "quentin rames",
+  "license": "ISC",
+  "dependencies": {
+    "jquery": "^3.3.1",
+    "jquery-svg-progress": "^1.0.1",
+    "svg-progress": "0.0.4",
+    "uikit": "^3.0.0-rc.11"
+  }
+}

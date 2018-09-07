@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+    <title>Mon profil</title>
+    <!-- google font -->
+    <!-- <link href="https://fonts.googleapis.com/css?family=Quicksand:400,700" rel="stylesheet"> -->
+    <link href="https://fonts.googleapis.com/css?family=Quicksand:400,700|Syncopate:400,700|Titillium+Web:400,700|Kaushan+Script" rel="stylesheet">
+
+    <!-- CHOISIR bootstrap, uikit ou reset.css -->
+    <!-- <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css"> -->
+    <link rel="stylesheet" href="node_modules/uikit/dist/css/uikit.css">
+    <link rel="stylesheet" href="node_modules/uikit/dist/css/uikit.css">
+    <!-- <link rel="stylesheet" href="css/reset.css" /> -->
+
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- chome line -->
+    <meta name="viewport" content="width=device-width, user-scalable=no">
+</head>
+
+<body>
+    <header id="header">
+        <img src="img/sebastian-unrau-47679-unsplash.jpg" alt="" class=" uk-transform-origin-top-right" uk-scrollspy="cls: uk-animation-kenburns; repeat: true">
+        <div class="uk-overlay uk-overlay-primary uk-position-center uk-text-center uk-animation-toggle">
+            <h1>
+                <strong >W</strong>eb
+                <hr/>
+                C<strong>V</strong>
+            </h1>
+            <h2>Quentin Rames</h2>
+        </div>
+        <div class="uk-position-top">
+            <nav class="uk-navbar-container uk-navbar-transparent uk-light" uk-navbar>
+                <div class="uk-offcanvas-content uk-navbar-left">
+                    <a class="uk-navbar-toggle uk-hidden@s" uk-navbar-toggle-icon href="#" uk-toggle="target: #menu-mobile"></a>
+                    <div id="menu-mobile" uk-offcanvas>
+                        <div class="uk-offcanvas-bar">
+                            <button class="uk-offcanvas-close" type="button" uk-close></button>
+                            <ul class="uk-nav">
+                                <li>
+                                    <a href="#header">
+                                        <img src="img/codincamp.png" alt="">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="uk-nav-header" href="#competances">Competances</a>
+                                </li>
+                                <li>
+                                    <a class="uk-nav-header" href="#formation">Formation</a>
+                                </li>
+                                <li>
+                                    <a class="uk-nav-header" href="#technologie">Technologie</a>
+                                </li>
+                                <li>
+                                    <a class="uk-nav-header" href="#frameworks">Frameworks</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="uk-navbar-left uk-visible@s">
+                    <ul class="uk-navbar-nav">
+                        <li>
+                            <a href="#header">
+                                <img src="img/codincamp.png" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#formation">Formation</a>
+                        </li>
+                        <li>
+                            <a href="#competances">Competances</a>
+                        </li>
+                        <li>
+                            <a href="#technologie">Technologie</a>
+                        </li>
+                        <li>
+                            <a href="#frameworks">Frameworks</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="uk-navbar-right">
+                    <ul class="uk-navbar-nav">
+                        <li id="toContact">
+                            <a href="contact.html"><i class="far fa-address-card"></i>Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+
+    </header>
+    <main>
+        <section id="formation">
+            <img src="img/business-coffee-computer-374006.jpg" alt="">
+            <div class="uk-overlay uk-overlay-primary uk-position-center uk-text-center">
+                <img src="img/codincamp.png" alt="">
+                <h2><a href="http://codincamp.fr/">codi'n'camp</a></h2>
+                <p>Developeur front-end & back-end Durée 10 mois</p>
+                <p>Obtenue le ../..</p>
+                <img id="GEDN" src="img/GEDN_white.png" alt="">
+                <p class="soustitre">Formation proposée par le GRETA en partenariat avec la <a href="http://www.mdecs48.fr/" target="_blank">Maison de l’Emploi et de la Cohésion Sociale de la Lozère</a> et <a href="http://simplon.co/" target="_blank">Simplon.co</a></p>
+                <p class="soustitre">Titre professionnel de Niveau III développeur(euse) logiciel
+                    <strong >Labellisé Grande Ecole Du Numérique
+                    </strong>
+                </p>
+
+            </div>
+        </section>
+        <section id="competances">
+            <img src="img/blue-blur-color-932638.jpg" alt="" class="uk-animation-reverse uk-transform-origin-top-right" uk-scrollspy="cls: uk-animation-kenburns; repeat: true">
+            <div class="uk-overlay uk-overlay-primary uk-position-center uk-text-center">
+                <h2>Des Competances multiple :
+                <br/>web face visible & web face caché</h2>
+                <h5>Les sites que je souhaite réaliser?</h5>
+                <div uk-slider="autoplay: true; autoplay-interval: 3000">
+                    <div class="uk-position-relative">
+                        <div class="uk-slider-container uk-light">
+                            <ul class="uk-slider-items uk-child-width-1-1 uk-child-width-1-2@s uk-child-width-1-3@m">
+                                <li>
+                                    <p>
+                                        Ils ont un disign moderne
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        Ils sont responsive au détails près
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        Une technologie simple et efficace
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        Une bonne structure de donné pour un meilleur usage
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        Enfin ils offrent un accés clair a l'information
+                                    </p>
+                                </li>
+                            </ul>
+                            <div class="uk-hidden@s uk-light">
+                                <a class="uk-position-center-left uk-position-small" href="#" uk-slidenav-previous uk-slider-item="previous"></a>
+                                <a class="uk-position-center-right uk-position-small" href="#" uk-slidenav-next uk-slider-item="next"></a>
+                            </div>
+
+                            <div class="uk-visible@s">
+                                <a class="uk-position-center-left-out uk-position-small" href="#" uk-slidenav-previous uk-slider-item="previous"></a>
+                                <a class="uk-position-center-right-out uk-position-small" href="#" uk-slidenav-next uk-slider-item="next"></a>
+                            </div>
+
+                        </div>
+                        <ul class="uk-slider-nav uk-dotnav uk-flex-center uk-margin-small"></ul>
+
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="technologie">
+            <img src="img/aerial-background-beverage-1038674.jpg" alt="">
+            <div class="uk-overlay uk-overlay-primary uk-position-center uk-text-center"><h2>les technologies<br/>avec lesquelles je travaille</h2><ul><li><i class="fab fa-css3-alt"></i><i class="fab fa-sass"></i><hr>CSS/SASS</li><li><i class="fab fa-html5"></i><hr>HTML5</li><li><i class="fab fa-js"></i><hr>JavaScript</li><li><i class="fab fa-php"></i><i class="fab fa-python"></i><hr>PHP/Python</li><li><i class="fab fa-github"></i><i class="fab fa-git"></i><hr>GIT/GITHUB</li><li><i class="fas fa-server"></i><hr>MySQL</li></ul></div>
+        </section>
+        <section id="frameworks">
+            <img src="img/jeremy-bishop-298892-unsplash.jpg" alt="" class="uk-animation-reverse uk-transform-origin-top-right" uk-scrollspy="cls: uk-animation-kenburns; repeat: true">
+            <div class="uk-overlay uk-overlay-primary uk-position-center uk-text-center">git
+                <h2>les frameworks:</h2>
+                <ul>
+                    <li>bootstrap
+                        <br>
+                        <svg class="d-block" width="36" height="36" viewBox="0 0 612 612" xmlns="http://www.w3.org/2000/svg" focusable="false"><title>Bootstrap</title><path fill="currentColor" d="M510 8a94.3 94.3 0 0 1 94 94v408a94.3 94.3 0 0 1-94 94H102a94.3 94.3 0 0 1-94-94V102a94.3 94.3 0 0 1 94-94h408m0-8H102C45.9 0 0 45.9 0 102v408c0 56.1 45.9 102 102 102h408c56.1 0 102-45.9 102-102V102C612 45.9 566.1 0 510 0z"></path><path fill="currentColor" d="M196.77 471.5V154.43h124.15c54.27 0 91 31.64 91 79.1 0 33-24.17 63.72-54.71 69.21v1.76c43.07 5.49 70.75 35.82 70.75 78 0 55.81-40 89-107.45 89zm39.55-180.4h63.28c46.8 0 72.29-18.68 72.29-53 0-31.42-21.53-48.78-60-48.78h-75.57zm78.22 145.46c47.68 0 72.73-19.34 72.73-56s-25.93-55.37-76.46-55.37h-74.49v111.4z"></path></svg>
+                    </li>
+                    <li>uikit
+                        <br>
+                        <i class="fab fa-uikit"></i>
+                    </li>
+                    <li>
+                        Python
+                        <img style="height: auto" src="https://www.djangoproject.com/s/img/logo-django.42234b631760.svg" alt="">
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <ul class="uk-dotnav uk-flex-center uk-margin-small">
+            <li class="uk-active"><a href="#header"></a></li>
+            <li class=""><a href="#formation"></a></li>
+            <li class=""><a href="#competances"></a></li>
+            <li class=""><a href="#technologie"></a></li>
+            <li class=""><a href="#frameworks"></a></li>
+            <!-- <li class="uk-active"><a href="#Competances"></a></li> -->
+        </ul>
+    </footer>
+    <!-- jquery -->
+    <script type="text/javascript" src="node_modules/jquery/dist/jquery.min.js"></script>
+
+    <!-- external script -->
+    <script type="text/javascript" src="node_modules/uikit/dist/js/uikit.min.js"></script>
+
+    <script type="text/javascript" src="node_modules/uikit/dist/js/uikit-icons.min.js"></script>
+
+    <script type="text/javascript" src="node_modules/jquery-svg-progress/js/jQuery-svg-progress-min.js">
+    </script>
+
+    <!-- my script -->
+    <script src="js/linkOnePage.js"></script>
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
